@@ -3,6 +3,8 @@
 **Project description:** In this project, we will be deploying an end to end property rental price predictions using scikit-learn, mlflow and weights and biases. The pipeline estimates the typical price of a given property based on the price of similar properties. The focus on the project is on the MLops process such as the tracking of experiments, pipeline artifacts and the deployment of the inference pipeline rather than on the EDA and modelling. The latter are of secondary importance in this project.
 
 Source: [Udacity - Machine Learning DevOps Engineer Nano-degree](https://www.udacity.com/course/machine-learning-dev-ops-engineer-nanodegree--nd0821)
+github link : https://github.com/arsenallover/udacity_c2_project_reproducible_pipeline
+wandb link : https://wandb.ai/rangarajp1308/nyc_airbnb?workspace=user-rangarajp1308
 
 
 ## Pipeline Configuration
