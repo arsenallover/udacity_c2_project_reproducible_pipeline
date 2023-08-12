@@ -1,0 +1,26 @@
+
+2023-08-12 10:59:02,901 Downloading artifacts
+2023-08-12 10:59:22,805 Loading model and performing inference on test set
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator OrdinalEncoder from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator SimpleImputer from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator OneHotEncoder from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator Pipeline from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator FunctionTransformer from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator TfidfTransformer from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator TfidfVectorizer from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator ColumnTransformer from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator DecisionTreeRegressor from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+/Users/apple/opt/anaconda3/envs/mlflow-3e3e58bcfad2cca60f873548473835dc95cd0d0f/lib/python3.9/site-packages/sklearn/base.py:310: UserWarning: Trying to unpickle estimator RandomForestRegressor from version 0.24.0 when using version 0.24.1. This might lead to breaking code or invalid results. Use at your own risk.
+  warnings.warn(
+2023-08-12 10:59:35,309 Scoring
+2023-08-12 10:59:35,425 Score: 0.5784542743229455
+2023-08-12 10:59:35,425 MAE: 32.924156800841885

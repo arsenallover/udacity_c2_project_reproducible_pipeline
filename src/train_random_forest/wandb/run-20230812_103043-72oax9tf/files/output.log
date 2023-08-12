@@ -1,0 +1,25 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+[34m[1mwandb[39m[22m: [33mWARNING[39m A graphql request initiated by the public wandb API timed out (timeout=9 sec). Create a new API with an integer timeout larger than 9, e.g., `api = wandb.Api(timeout=19)` to increase the graphql timeout.
+[34m[1mwandb[39m[22m: Network error (ReadTimeout), entering retry loop.
+[34m[1mwandb[39m[22m: Network error (ReadTimeout), entering retry loop.
+2023-08-12 10:34:13,444 Minimum price: 10, Maximum price: 350
+2023-08-12 10:34:13,478 Preparing sklearn pipeline
+2023-08-12 10:34:13,482 Fitting
+2023-08-12 10:37:23,300 Scoring
+2023-08-12 10:37:23,503 Score: 0.5652578116541835
+2023-08-12 10:37:23,504 MAE: 33.19792927631579
+2023-08-12 10:37:23,504 Exporting model
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py", line 310, in <module>
+    go(args)
+  File "/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py", line 102, in go
+    signature = mlflow.models.infer_signature(X_val, y_pred)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/mlflow/models/signature.py", line 130, in infer_signature
+    inputs = _infer_schema(model_input)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/mlflow/types/utils.py", line 122, in _infer_schema
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/mlflow/types/utils.py", line 122, in <listcomp>
+    [ColSpec(type=_infer_pandas_column(data[col]), name=col) for col in data.columns]
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/mlflow/types/utils.py", line 243, in _infer_pandas_column
+    raise MlflowException(
+mlflow.exceptions.MlflowException: Unable to map 'object' type to MLflow DataType. object can be mapped iff all values have identical data type which is one of (string, (bytes or byterray),  int, float).

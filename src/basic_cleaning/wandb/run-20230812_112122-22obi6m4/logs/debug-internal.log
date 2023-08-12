@@ -1,0 +1,176 @@
+2023-08-12 11:21:22,730 INFO    StreamThr :12735 [internal.py:wandb_internal():90] W&B internal server running at pid: 12735, started at: 2023-08-12 11:21:22.727162
+2023-08-12 11:21:22,734 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: status
+2023-08-12 11:21:22,739 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: status
+2023-08-12 11:21:22,743 DEBUG   SenderThread:12735 [sender.py:send():302] send: header
+2023-08-12 11:21:22,743 INFO    WriterThread:12735 [datastore.py:open_for_write():75] open: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/run-22obi6m4.wandb
+2023-08-12 11:21:22,744 DEBUG   SenderThread:12735 [sender.py:send():302] send: run
+2023-08-12 11:21:23,688 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: check_version
+2023-08-12 11:21:23,689 INFO    SenderThread:12735 [dir_watcher.py:__init__():216] watching files in: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files
+2023-08-12 11:21:23,690 INFO    SenderThread:12735 [sender.py:_start_run_threads():913] run started: 22obi6m4 with start time 1691819482.382329
+2023-08-12 11:21:23,690 DEBUG   SenderThread:12735 [sender.py:send():302] send: summary
+2023-08-12 11:21:23,691 INFO    SenderThread:12735 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-12 11:21:23,691 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: check_version
+2023-08-12 11:21:23,921 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: run_start
+2023-08-12 11:21:23,925 DEBUG   HandlerThread:12735 [meta.py:__init__():35] meta init
+2023-08-12 11:21:23,929 DEBUG   HandlerThread:12735 [meta.py:__init__():50] meta init done
+2023-08-12 11:21:23,929 DEBUG   HandlerThread:12735 [meta.py:probe():216] probe
+2023-08-12 11:21:23,950 DEBUG   HandlerThread:12735 [meta.py:_setup_git():206] setup git
+2023-08-12 11:21:23,990 DEBUG   HandlerThread:12735 [meta.py:_setup_git():213] setup git done
+2023-08-12 11:21:23,991 DEBUG   HandlerThread:12735 [meta.py:_save_pip():54] save pip
+2023-08-12 11:21:23,992 DEBUG   HandlerThread:12735 [meta.py:_save_pip():68] save pip done
+2023-08-12 11:21:23,992 DEBUG   HandlerThread:12735 [meta.py:_save_conda():75] save conda
+2023-08-12 11:21:24,702 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/conda-environment.yaml
+2023-08-12 11:21:24,703 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/requirements.txt
+2023-08-12 11:21:24,703 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/wandb-summary.json
+2023-08-12 11:21:27,464 DEBUG   HandlerThread:12735 [meta.py:_save_conda():85] save conda done
+2023-08-12 11:21:27,465 DEBUG   HandlerThread:12735 [meta.py:probe():254] probe done
+2023-08-12 11:21:27,477 DEBUG   SenderThread:12735 [sender.py:send():302] send: files
+2023-08-12 11:21:27,478 INFO    SenderThread:12735 [sender.py:_save_file():1156] saving file wandb-metadata.json with policy now
+2023-08-12 11:21:27,486 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: stop_status
+2023-08-12 11:21:27,488 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: stop_status
+2023-08-12 11:21:27,712 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/conda-environment.yaml
+2023-08-12 11:21:27,712 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/wandb-metadata.json
+2023-08-12 11:21:28,000 DEBUG   SenderThread:12735 [sender.py:send():302] send: telemetry
+2023-08-12 11:21:28,001 DEBUG   SenderThread:12735 [sender.py:send():302] send: config
+2023-08-12 11:21:28,491 INFO    Thread-16 :12735 [upload_job.py:push():138] Uploaded file /var/folders/sl/vgy0ldjj0_331w5nbqlrzf5m0000gn/T/tmpk8j22kyswandb/91fzjhml-wandb-metadata.json
+2023-08-12 11:21:28,716 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_created():275] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/output.log
+2023-08-12 11:21:30,728 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/output.log
+2023-08-12 11:21:30,847 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: log_artifact
+2023-08-12 11:21:30,847 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: log_artifact
+2023-08-12 11:21:30,852 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:32,085 INFO    SenderThread:12735 [sender.py:send_request_log_artifact():1207] logged artifact clean_sample.csv - {'id': 'QXJ0aWZhY3Q6NTM4MTk2MjA5', 'digest': 'd1caf0f1b6fe9e1d49d7c0b252c8b39a', 'state': 'COMMITTED', 'aliases': [{'artifactCollectionName': 'clean_sample.csv', 'alias': 'latest'}, {'artifactCollectionName': 'clean_sample.csv', 'alias': 'reference'}, {'artifactCollectionName': 'clean_sample.csv', 'alias': 'v0'}], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg5Mzc5OTU2', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NTM4MTk2MjA5', 'versionIndex': 0}}, 'version': 'v0'}
+2023-08-12 11:21:32,085 DEBUG   SenderThread:12735 [sender.py:send():302] send: exit
+2023-08-12 11:21:32,086 INFO    SenderThread:12735 [sender.py:send_exit():438] handling exit code: 0
+2023-08-12 11:21:32,086 INFO    SenderThread:12735 [sender.py:send_exit():440] handling runtime: 6
+2023-08-12 11:21:32,088 INFO    SenderThread:12735 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-12 11:21:32,089 INFO    SenderThread:12735 [sender.py:send_exit():446] send defer
+2023-08-12 11:21:32,089 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:32,090 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:32,091 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 0
+2023-08-12 11:21:32,092 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:32,092 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 0
+2023-08-12 11:21:32,092 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 1
+2023-08-12 11:21:32,093 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:32,093 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 1
+2023-08-12 11:21:32,182 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:32,182 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 1
+2023-08-12 11:21:32,183 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 2
+2023-08-12 11:21:32,183 DEBUG   SenderThread:12735 [sender.py:send():302] send: stats
+2023-08-12 11:21:32,184 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:32,184 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 2
+2023-08-12 11:21:32,185 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:32,185 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 2
+2023-08-12 11:21:32,185 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 3
+2023-08-12 11:21:32,186 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:32,186 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 3
+2023-08-12 11:21:32,186 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:32,186 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 3
+2023-08-12 11:21:32,186 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 4
+2023-08-12 11:21:32,187 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:32,187 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 4
+2023-08-12 11:21:32,188 DEBUG   SenderThread:12735 [sender.py:send():302] send: summary
+2023-08-12 11:21:32,189 INFO    SenderThread:12735 [sender.py:_save_file():1156] saving file wandb-summary.json with policy end
+2023-08-12 11:21:32,189 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:32,189 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 4
+2023-08-12 11:21:32,189 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 5
+2023-08-12 11:21:32,190 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:32,190 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 5
+2023-08-12 11:21:32,190 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:32,190 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 5
+2023-08-12 11:21:32,195 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:32,734 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/wandb-summary.json
+2023-08-12 11:21:32,735 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/output.log
+2023-08-12 11:21:33,099 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 6
+2023-08-12 11:21:33,100 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:33,100 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:33,101 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 6
+2023-08-12 11:21:33,101 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:33,101 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 6
+2023-08-12 11:21:33,207 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:33,736 INFO    Thread-12 :12735 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/config.yaml
+2023-08-12 11:21:34,025 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 7
+2023-08-12 11:21:34,025 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:34,026 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:34,026 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 7
+2023-08-12 11:21:34,027 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:34,028 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 7
+2023-08-12 11:21:34,028 INFO    SenderThread:12735 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-08-12 11:21:34,131 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:34,742 INFO    SenderThread:12735 [dir_watcher.py:_on_file_modified():292] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/output.log
+2023-08-12 11:21:34,743 INFO    SenderThread:12735 [dir_watcher.py:finish():392] scan: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files
+2023-08-12 11:21:34,743 INFO    SenderThread:12735 [dir_watcher.py:finish():406] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/requirements.txt requirements.txt
+2023-08-12 11:21:34,743 INFO    SenderThread:12735 [dir_watcher.py:finish():406] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/output.log output.log
+2023-08-12 11:21:34,747 INFO    SenderThread:12735 [dir_watcher.py:finish():406] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/config.yaml config.yaml
+2023-08-12 11:21:34,752 INFO    SenderThread:12735 [dir_watcher.py:finish():406] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/wandb-summary.json wandb-summary.json
+2023-08-12 11:21:34,759 INFO    SenderThread:12735 [dir_watcher.py:finish():406] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/conda-environment.yaml conda-environment.yaml
+2023-08-12 11:21:34,763 INFO    SenderThread:12735 [dir_watcher.py:finish():406] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/wandb-metadata.json wandb-metadata.json
+2023-08-12 11:21:34,764 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 8
+2023-08-12 11:21:34,764 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:34,768 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:34,769 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 8
+2023-08-12 11:21:34,769 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:34,770 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 8
+2023-08-12 11:21:34,770 INFO    SenderThread:12735 [file_pusher.py:finish():171] shutting down file pusher
+2023-08-12 11:21:34,871 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:34,872 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:34,979 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:34,980 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,083 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,083 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,187 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,187 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,297 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,297 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,401 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,401 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,508 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,508 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,613 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,614 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,721 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,721 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,829 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,830 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:35,862 INFO    Thread-17 :12735 [upload_job.py:push():138] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/requirements.txt
+2023-08-12 11:21:35,865 INFO    Thread-20 :12735 [upload_job.py:push():138] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/wandb-summary.json
+2023-08-12 11:21:35,865 INFO    Thread-18 :12735 [upload_job.py:push():138] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/output.log
+2023-08-12 11:21:35,865 INFO    Thread-21 :12735 [upload_job.py:push():138] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/conda-environment.yaml
+2023-08-12 11:21:35,868 INFO    Thread-19 :12735 [upload_job.py:push():138] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/files/config.yaml
+2023-08-12 11:21:35,933 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:35,934 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:36,038 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:36,038 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:36,070 INFO    Thread-11 (_thread_body):12735 [sender.py:transition_state():459] send defer: 9
+2023-08-12 11:21:36,071 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:36,071 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 9
+2023-08-12 11:21:36,071 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:36,072 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 9
+2023-08-12 11:21:36,141 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:36,469 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 10
+2023-08-12 11:21:36,469 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:36,471 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:36,471 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 10
+2023-08-12 11:21:36,472 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:36,472 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 10
+2023-08-12 11:21:36,472 INFO    SenderThread:12735 [sender.py:transition_state():459] send defer: 11
+2023-08-12 11:21:36,473 DEBUG   SenderThread:12735 [sender.py:send():302] send: final
+2023-08-12 11:21:36,474 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: defer
+2023-08-12 11:21:36,474 DEBUG   SenderThread:12735 [sender.py:send():302] send: footer
+2023-08-12 11:21:36,474 INFO    HandlerThread:12735 [handler.py:handle_request_defer():164] handle defer: 11
+2023-08-12 11:21:36,475 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: defer
+2023-08-12 11:21:36,475 INFO    SenderThread:12735 [sender.py:send_request_defer():455] handle sender defer: 11
+2023-08-12 11:21:36,577 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: poll_exit
+2023-08-12 11:21:36,578 DEBUG   SenderThread:12735 [sender.py:send_request():316] send_request: poll_exit
+2023-08-12 11:21:36,578 INFO    SenderThread:12735 [file_pusher.py:join():176] waiting for file pusher
+2023-08-12 11:21:37,092 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: sampled_history
+2023-08-12 11:21:37,094 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: get_summary
+2023-08-12 11:21:37,095 INFO    MainThread:12735 [wandb_run.py:_footer_history_summary_info():3305] rendering history
+2023-08-12 11:21:37,095 INFO    MainThread:12735 [wandb_run.py:_footer_history_summary_info():3337] rendering summary
+2023-08-12 11:21:37,095 INFO    MainThread:12735 [wandb_run.py:_footer_sync_info():3261] logging synced files
+2023-08-12 11:21:37,097 DEBUG   HandlerThread:12735 [handler.py:handle_request():141] handle_request: shutdown
+2023-08-12 11:21:37,097 INFO    HandlerThread:12735 [handler.py:finish():810] shutting down handler
+2023-08-12 11:21:37,478 INFO    WriterThread:12735 [datastore.py:close():279] close: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/wandb/run-20230812_112122-22obi6m4/run-22obi6m4.wandb
+2023-08-12 11:21:37,989 INFO    SenderThread:12735 [sender.py:finish():1312] shutting down sender
+2023-08-12 11:21:37,989 INFO    SenderThread:12735 [file_pusher.py:finish():171] shutting down file pusher
+2023-08-12 11:21:37,989 INFO    SenderThread:12735 [file_pusher.py:join():176] waiting for file pusher
+2023-08-12 11:21:39,093 INFO    MainThread:12735 [internal.py:handle_exit():80] Internal process exited

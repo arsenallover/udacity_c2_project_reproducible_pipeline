@@ -1,0 +1,151 @@
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Current SDK version is 0.15.8
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Configure stats pid to 8155
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Loading settings from /Users/apple/.config/wandb/settings
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Loading settings from /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/settings
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'nyc_airbnb', 'run_group': 'development'}
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-08-12 10:30:43,677 INFO    MainThread:8155 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/train_random_forest/run.py', 'program': '/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py'}
+2023-08-12 10:30:43,678 INFO    MainThread:8155 [wandb_init.py:_log_setup():507] Logging user logs to /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_103043-72oax9tf/logs/debug.log
+2023-08-12 10:30:43,678 INFO    MainThread:8155 [wandb_init.py:_log_setup():508] Logging internal logs to /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_103043-72oax9tf/logs/debug-internal.log
+2023-08-12 10:30:43,678 INFO    MainThread:8155 [wandb_init.py:init():547] calling init triggers
+2023-08-12 10:30:43,678 INFO    MainThread:8155 [wandb_init.py:init():554] wandb.init called with sweep_config: {}
+config: {}
+2023-08-12 10:30:43,679 INFO    MainThread:8155 [wandb_init.py:init():596] starting backend
+2023-08-12 10:30:43,680 INFO    MainThread:8155 [wandb_init.py:init():600] setting up manager
+2023-08-12 10:30:43,685 INFO    MainThread:8155 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2023-08-12 10:30:43,697 INFO    MainThread:8155 [wandb_init.py:init():606] backend started and connected
+2023-08-12 10:30:43,715 INFO    MainThread:8155 [wandb_init.py:init():697] updated telemetry
+2023-08-12 10:30:43,763 INFO    MainThread:8155 [wandb_init.py:init():730] communicating run to backend with 60.0 second timeout
+2023-08-12 10:31:12,837 INFO    MainThread:8155 [wandb_run.py:_on_init():2180] communicating current version
+2023-08-12 10:31:13,057 INFO    MainThread:8155 [wandb_run.py:_on_init():2189] got version response 
+2023-08-12 10:31:13,057 INFO    MainThread:8155 [wandb_init.py:init():781] starting run threads in backend
+2023-08-12 10:31:18,385 INFO    MainThread:8155 [wandb_run.py:_console_start():2159] atexit reg
+2023-08-12 10:31:18,385 INFO    MainThread:8155 [wandb_run.py:_redirect():2014] redirect: wrap_raw
+2023-08-12 10:31:18,385 INFO    MainThread:8155 [wandb_run.py:_redirect():2079] Wrapping output streams.
+2023-08-12 10:31:18,386 INFO    MainThread:8155 [wandb_run.py:_redirect():2104] Redirects installed.
+2023-08-12 10:31:18,387 INFO    MainThread:8155 [wandb_init.py:init():822] run started, returning control to user process
+2023-08-12 10:31:18,390 INFO    MainThread:8155 [wandb_run.py:_config_callback():1282] config_cb None None {'trainval_artifact': 'trainval_data.csv:latest', 'val_size': 0.2, 'random_seed': 42, 'stratify_by': 'neighbourhood_group', 'rf_config': '/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/outputs/2023-08-12/10-13-44/rf_config.json', 'max_tfidf_features': 30, 'output_artifact': 'random_forest_export'}
+2023-08-12 10:31:18,396 INFO    MainThread:8155 [wandb_run.py:_config_callback():1282] config_cb None None {'n_estimators': 100, 'max_depth': 100, 'min_samples_split': 4, 'min_samples_leaf': 3, 'n_jobs': -1, 'criterion': 'mae', 'max_features': 0.33, 'oob_score': True}
+2023-08-12 10:32:18,098 INFO    MainThread:8155 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 370, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-08-12 10:33:18,481 INFO    MainThread:8155 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/urllib3/connectionpool.py", line 370, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-08-12 10:37:35,993 WARNING MsgRouterThr:8155 [router.py:message_loop():77] message_loop has been closed

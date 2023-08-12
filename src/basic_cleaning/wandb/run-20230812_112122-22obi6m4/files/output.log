@@ -1,0 +1,5 @@
+
+2023-08-12 11:21:27,492 Downloading artifact sample.csv:latest
+2023-08-12 11:21:29,921 cleaning artifact with min & max prices (10.0, 350.0)
+2023-08-12 11:21:29,945 Saving cleaned data to clean_sample.csv
+2023-08-12 11:21:30,355 Logging artifact clean_sample.csv

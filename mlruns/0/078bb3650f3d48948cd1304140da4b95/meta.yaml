@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/mlruns/0/078bb3650f3d48948cd1304140da4b95/artifacts
+end_time: 1691812080753
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 078bb3650f3d48948cd1304140da4b95
+run_uuid: 078bb3650f3d48948cd1304140da4b95
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691811621230
+status: 4
+tags: []
+user_id: apple

@@ -1,0 +1,364 @@
+2023-08-12 10:01:29,368 INFO    StreamThr :6255 [internal.py:wandb_internal():86] W&B internal server running at pid: 6255, started at: 2023-08-12 10:01:29.367041
+2023-08-12 10:01:29,370 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status
+2023-08-12 10:01:29,383 INFO    WriterThread:6255 [datastore.py:open_for_write():85] open: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/run-hoqyow84.wandb
+2023-08-12 10:01:29,388 DEBUG   SenderThread:6255 [sender.py:send():379] send: header
+2023-08-12 10:01:29,431 DEBUG   SenderThread:6255 [sender.py:send():379] send: run
+2023-08-12 10:01:34,456 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:01:39,464 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:01:44,482 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:01:49,491 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:01:54,501 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:01:59,514 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:04,521 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:07,999 INFO    SenderThread:6255 [dir_watcher.py:__init__():211] watching files in: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files
+2023-08-12 10:02:07,999 INFO    SenderThread:6255 [sender.py:_start_run_threads():1121] run started: hoqyow84 with start time 1691814689.372691
+2023-08-12 10:02:07,999 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: summary_record
+2023-08-12 10:02:08,000 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:02:08,001 INFO    SenderThread:6255 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-12 10:02:08,013 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: check_version
+2023-08-12 10:02:08,014 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: check_version
+2023-08-12 10:02:08,204 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: run_start
+2023-08-12 10:02:08,222 DEBUG   HandlerThread:6255 [system_info.py:__init__():31] System info init
+2023-08-12 10:02:08,223 DEBUG   HandlerThread:6255 [system_info.py:__init__():46] System info init done
+2023-08-12 10:02:08,223 INFO    HandlerThread:6255 [system_monitor.py:start():181] Starting system monitor
+2023-08-12 10:02:08,223 INFO    SystemMonitor:6255 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-12 10:02:08,224 INFO    HandlerThread:6255 [system_monitor.py:probe():201] Collecting system info
+2023-08-12 10:02:08,224 DEBUG   HandlerThread:6255 [system_info.py:probe():195] Probing system
+2023-08-12 10:02:08,225 INFO    SystemMonitor:6255 [interfaces.py:start():190] Started cpu monitoring
+2023-08-12 10:02:08,226 INFO    SystemMonitor:6255 [interfaces.py:start():190] Started disk monitoring
+2023-08-12 10:02:08,227 INFO    SystemMonitor:6255 [interfaces.py:start():190] Started memory monitoring
+2023-08-12 10:02:08,228 INFO    SystemMonitor:6255 [interfaces.py:start():190] Started network monitoring
+2023-08-12 10:02:08,235 DEBUG   HandlerThread:6255 [system_info.py:_probe_git():180] Probing git
+2023-08-12 10:02:08,264 DEBUG   HandlerThread:6255 [system_info.py:_probe_git():188] Probing git done
+2023-08-12 10:02:08,265 DEBUG   HandlerThread:6255 [system_info.py:probe():240] Probing system done
+2023-08-12 10:02:08,265 DEBUG   HandlerThread:6255 [system_monitor.py:probe():210] {'os': 'macOS-12.0.1-x86_64-i386-64bit', 'python': '3.9.17', 'heartbeatAt': '2023-08-12T04:32:08.225221', 'startedAt': '2023-08-12T04:31:29.350543', 'docker': None, 'cuda': None, 'args': ('--trainval_artifact', 'trainval_data.csv:latest', '--val_size', '0.2', '--random_seed', '42', '--stratify_by', 'neighbourhood_group', '--rf_config', '/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/outputs/2023-08-12/09-52-11/rf_config.json', '--max_tfidf_features', '30', '--output_artifact', 'random_forest_export'), 'state': 'running', 'program': '/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py', 'codePath': 'src/train_random_forest/run.py', 'git': {'remote': 'https://github.com/ChristopherCochet/nyc-rental-prices-predictions-ml-pipeline.git', 'commit': '47d6c36d081a255f7916793b029cb401ff47d23b'}, 'email': 'rangarajp1308@gmail.com', 'root': '/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline', 'host': 'apples-MacBook-Air.local', 'username': 'apple', 'executable': '/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 1600, 'min': 1600, 'max': 1600}, 'cpu_freq_per_core': [{'current': 1600, 'min': 1600, 'max': 1600}], 'disk': {'total': 112.80464935302734, 'used': 23.700984954833984}, 'memory': {'total': 4.0}}
+2023-08-12 10:02:08,265 INFO    HandlerThread:6255 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-12 10:02:08,265 INFO    HandlerThread:6255 [system_monitor.py:probe():214] Publishing system info
+2023-08-12 10:02:08,265 DEBUG   HandlerThread:6255 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-12 10:02:08,266 DEBUG   HandlerThread:6255 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-12 10:02:08,266 DEBUG   HandlerThread:6255 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-12 10:02:09,007 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/wandb-summary.json
+2023-08-12 10:02:09,008 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/requirements.txt
+2023-08-12 10:02:09,009 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/conda-environment.yaml
+2023-08-12 10:02:13,803 DEBUG   HandlerThread:6255 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-12 10:02:13,804 INFO    HandlerThread:6255 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-12 10:02:13,815 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:02:13,816 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:13,818 DEBUG   SenderThread:6255 [sender.py:send():379] send: files
+2023-08-12 10:02:13,818 INFO    SenderThread:6255 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-12 10:02:13,825 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-12 10:02:13,828 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: stop_status
+2023-08-12 10:02:14,020 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/conda-environment.yaml
+2023-08-12 10:02:14,021 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/wandb-metadata.json
+2023-08-12 10:02:14,332 DEBUG   SenderThread:6255 [sender.py:send():379] send: telemetry
+2023-08-12 10:02:14,332 DEBUG   SenderThread:6255 [sender.py:send():379] send: config
+2023-08-12 10:02:14,333 DEBUG   SenderThread:6255 [sender.py:send():379] send: config
+2023-08-12 10:02:14,944 INFO    wandb-upload_0:6255 [upload_job.py:push():131] Uploaded file /var/folders/sl/vgy0ldjj0_331w5nbqlrzf5m0000gn/T/tmpu812d1mfwandb/shoobcr0-wandb-metadata.json
+2023-08-12 10:02:15,463 DEBUG   SenderThread:6255 [sender.py:send():379] send: use_artifact
+2023-08-12 10:02:16,746 DEBUG   SenderThread:6255 [sender.py:send():379] send: exit
+2023-08-12 10:02:16,746 INFO    SenderThread:6255 [sender.py:send_exit():584] handling exit code: 1
+2023-08-12 10:02:16,746 INFO    SenderThread:6255 [sender.py:send_exit():586] handling runtime: 8
+2023-08-12 10:02:16,749 INFO    SenderThread:6255 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-12 10:02:16,749 INFO    SenderThread:6255 [sender.py:send_exit():592] send defer
+2023-08-12 10:02:16,750 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,750 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-12 10:02:16,751 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,752 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-12 10:02:16,752 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 1
+2023-08-12 10:02:16,753 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,753 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-12 10:02:16,754 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,754 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-12 10:02:16,754 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 2
+2023-08-12 10:02:16,755 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,755 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-12 10:02:16,755 INFO    HandlerThread:6255 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-12 10:02:16,755 DEBUG   SystemMonitor:6255 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-12 10:02:16,755 DEBUG   SystemMonitor:6255 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-12 10:02:16,756 DEBUG   SystemMonitor:6255 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-12 10:02:16,758 INFO    HandlerThread:6255 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-12 10:02:16,758 INFO    HandlerThread:6255 [interfaces.py:finish():202] Joined disk monitor
+2023-08-12 10:02:16,759 INFO    HandlerThread:6255 [interfaces.py:finish():202] Joined memory monitor
+2023-08-12 10:02:16,760 INFO    HandlerThread:6255 [interfaces.py:finish():202] Joined network monitor
+2023-08-12 10:02:16,762 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,762 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-12 10:02:16,762 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 3
+2023-08-12 10:02:16,763 DEBUG   SenderThread:6255 [sender.py:send():379] send: stats
+2023-08-12 10:02:16,763 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,764 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-12 10:02:16,765 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,765 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-12 10:02:16,765 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 4
+2023-08-12 10:02:16,765 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,765 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-12 10:02:16,766 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,766 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-12 10:02:16,766 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 5
+2023-08-12 10:02:16,766 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,766 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-12 10:02:16,767 DEBUG   SenderThread:6255 [sender.py:send():379] send: summary
+2023-08-12 10:02:16,768 INFO    SenderThread:6255 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-12 10:02:16,768 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,769 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-12 10:02:16,769 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 6
+2023-08-12 10:02:16,769 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:02:16,769 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-12 10:02:16,769 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:02:16,770 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-12 10:02:16,776 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:02:17,032 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/wandb-summary.json
+2023-08-12 10:02:17,032 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/output.log
+2023-08-12 10:02:17,743 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-12 10:02:19,035 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/output.log
+2023-08-12 10:02:22,754 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:27,765 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:32,777 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:37,790 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:42,812 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:47,829 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:50,180 INFO    SenderThread:6255 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 370, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-08-12 10:02:52,844 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:02:57,860 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:02,872 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:07,889 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:12,912 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:17,929 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:19,566 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 7
+2023-08-12 10:03:19,567 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: poll_exit
+2023-08-12 10:03:19,567 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:03:19,567 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-12 10:03:19,567 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:03:19,568 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:03:19,568 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-12 10:03:20,221 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/config.yaml
+2023-08-12 10:03:20,602 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 8
+2023-08-12 10:03:20,603 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:03:20,603 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-12 10:03:20,603 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:03:20,603 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-12 10:03:20,604 INFO    SenderThread:6255 [job_builder.py:build():281] Attempting to build job artifact
+2023-08-12 10:03:20,605 INFO    SenderThread:6255 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-08-12 10:03:20,608 INFO    SenderThread:6255 [job_builder.py:build():374] adding wandb-job metadata file
+2023-08-12 10:03:20,618 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 9
+2023-08-12 10:03:20,619 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:03:20,619 DEBUG   SenderThread:6255 [sender.py:send():379] send: artifact
+2023-08-12 10:03:20,619 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-12 10:03:21,224 INFO    Thread-12 :6255 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/output.log
+2023-08-12 10:03:22,949 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:27,956 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:32,965 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:37,970 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:38,608 INFO    wandb-upload_0:6255 [upload_job.py:push():89] Uploaded file /Users/apple/Library/Application Support/wandb/artifacts/staging/tmpps_7w_6h
+2023-08-12 10:03:38,618 INFO    wandb-upload_1:6255 [upload_job.py:push():89] Uploaded file /Users/apple/Library/Application Support/wandb/artifacts/staging/tmpthz7hml5
+2023-08-12 10:03:42,983 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:47,991 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:53,004 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:03:58,015 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:03,025 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:08,037 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:13,045 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:18,056 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:23,070 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:24,368 INFO    SenderThread:6255 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 536, in _make_request
+    response = conn.getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connection.py", line 461, in getresponse
+    httplib_response = super().getresponse()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 844, in urlopen
+    retries = retries.increment(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/util/retry.py", line 470, in increment
+    raise reraise(type(error), error, _stacktrace)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/util/util.py", line 39, in reraise
+    raise value
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 790, in urlopen
+    response = self._make_request(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 538, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/urllib3/connectionpool.py", line 370, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-08-12 10:04:28,074 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:33,081 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:38,099 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:41,831 WARNING FileStreamThread:6255 [file_stream.py:request_with_retry():666] requests_with_retry encountered retryable exception: 500 Server Error: Internal Server Error for url: https://api.wandb.ai/files/rangarajp1308/nyc_airbnb/hoqyow84/file_stream. func: functools.partial(<bound method Session.post of <requests.sessions.Session object at 0x112316820>>, timeout=60.0), args: ('https://api.wandb.ai/files/rangarajp1308/nyc_airbnb/hoqyow84/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': ['wandb-job.json', 'requirements.frozen.txt']}}
+2023-08-12 10:04:43,117 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:48,121 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:53,128 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:04:58,136 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:03,144 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:08,160 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:13,172 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:18,175 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:23,187 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:23,876 INFO    SenderThread:6255 [sender.py:send_artifact():1475] sent artifact job-https___github.com_ChristopherCochet_nyc-rental-prices-predictions-ml-pipeline.git_src_train_random_forest_run.py - {'id': 'QXJ0aWZhY3Q6NTM5OTA1NjY3', 'digest': 'c88e6d2cebf503b3cc205b786a6ac8c0', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjg5OTA2NDU3', 'latestArtifact': None}, 'version': 'latest'}
+2023-08-12 10:05:23,876 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:05:23,877 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:05:23,877 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-12 10:05:23,878 INFO    SenderThread:6255 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-12 10:05:24,479 INFO    SenderThread:6255 [dir_watcher.py:finish():388] scan: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files
+2023-08-12 10:05:24,480 INFO    SenderThread:6255 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/requirements.txt requirements.txt
+2023-08-12 10:05:24,480 INFO    SenderThread:6255 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/output.log output.log
+2023-08-12 10:05:24,481 INFO    SenderThread:6255 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/config.yaml config.yaml
+2023-08-12 10:05:24,493 INFO    SenderThread:6255 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/wandb-summary.json wandb-summary.json
+2023-08-12 10:05:24,499 INFO    SenderThread:6255 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/conda-environment.yaml conda-environment.yaml
+2023-08-12 10:05:24,506 INFO    SenderThread:6255 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/wandb-metadata.json wandb-metadata.json
+2023-08-12 10:05:24,507 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 10
+2023-08-12 10:05:24,508 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:05:24,512 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-12 10:05:24,514 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:05:24,514 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-12 10:05:24,515 INFO    SenderThread:6255 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-12 10:05:25,179 INFO    wandb-upload_0:6255 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/requirements.txt
+2023-08-12 10:05:25,514 INFO    wandb-upload_2:6255 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/config.yaml
+2023-08-12 10:05:25,516 INFO    wandb-upload_4:6255 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/conda-environment.yaml
+2023-08-12 10:05:25,924 INFO    wandb-upload_1:6255 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/output.log
+2023-08-12 10:05:28,191 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:29,524 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:05:33,204 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 10:05:34,150 INFO    wandb-upload_3:6255 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/files/wandb-summary.json
+2023-08-12 10:05:34,354 INFO    Thread-11 :6255 [sender.py:transition_state():612] send defer: 11
+2023-08-12 10:05:34,355 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:05:34,355 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-12 10:05:34,356 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:05:34,356 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-12 10:05:34,356 INFO    SenderThread:6255 [file_pusher.py:join():164] waiting for file pusher
+2023-08-12 10:05:34,357 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 12
+2023-08-12 10:05:34,357 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:05:34,357 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-12 10:05:34,358 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:05:34,358 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-12 10:05:34,358 INFO    SenderThread:6255 [file_stream.py:finish():593] file stream finish called
+2023-08-12 10:05:35,957 INFO    SenderThread:6255 [file_stream.py:finish():597] file stream finish is done
+2023-08-12 10:05:35,957 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 13
+2023-08-12 10:05:35,958 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:05:35,958 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-12 10:05:35,958 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 10:05:35,959 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:05:35,959 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-12 10:05:35,959 INFO    SenderThread:6255 [sender.py:transition_state():612] send defer: 14
+2023-08-12 10:05:35,960 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 10:05:35,960 DEBUG   SenderThread:6255 [sender.py:send():379] send: final
+2023-08-12 10:05:35,960 INFO    HandlerThread:6255 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-12 10:05:35,961 DEBUG   SenderThread:6255 [sender.py:send():379] send: footer
+2023-08-12 10:05:35,961 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: defer
+2023-08-12 10:05:35,962 INFO    SenderThread:6255 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-12 10:05:35,963 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-12 10:05:35,964 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: server_info
+2023-08-12 10:05:35,964 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: poll_exit
+2023-08-12 10:05:35,965 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-12 10:05:35,966 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-12 10:05:35,967 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: job_info
+2023-08-12 10:05:35,968 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: server_info
+2023-08-12 10:05:36,265 DEBUG   SenderThread:6255 [sender.py:send_request():406] send_request: job_info
+2023-08-12 10:05:36,266 INFO    MainThread:6255 [wandb_run.py:_footer_history_summary_info():3481] rendering history
+2023-08-12 10:05:36,266 INFO    MainThread:6255 [wandb_run.py:_footer_history_summary_info():3513] rendering summary
+2023-08-12 10:05:36,266 INFO    MainThread:6255 [wandb_run.py:_footer_sync_info():3440] logging synced files
+2023-08-12 10:05:36,267 DEBUG   HandlerThread:6255 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-12 10:05:36,268 INFO    HandlerThread:6255 [handler.py:finish():857] shutting down handler
+2023-08-12 10:05:36,968 INFO    WriterThread:6255 [datastore.py:close():294] close: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/wandb/run-20230812_100129-hoqyow84/run-hoqyow84.wandb
+2023-08-12 10:05:37,266 INFO    SenderThread:6255 [sender.py:finish():1552] shutting down sender
+2023-08-12 10:05:37,266 INFO    SenderThread:6255 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-12 10:05:37,266 INFO    SenderThread:6255 [file_pusher.py:join():164] waiting for file pusher

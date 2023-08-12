@@ -1,0 +1,19 @@
+2023-08-12 10:02:16,466 Minimum price: 10, Maximum price: 350
+2023-08-12 10:02:16,504 Preparing sklearn pipeline
+2023-08-12 10:02:16,506 Fitting
+Traceback (most recent call last):
+  File "/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py", line 310, in <module>
+    go(args)
+  File "/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py", line 79, in go
+    sk_pipe.fit(X_train,y_train)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/sklearn/base.py", line 1151, in wrapper
+    return fit_method(estimator, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/sklearn/pipeline.py", line 420, in fit
+    self._final_estimator.fit(Xt, y, **fit_params_last_step)
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/sklearn/base.py", line 1144, in wrapper
+    estimator._validate_params()
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/sklearn/base.py", line 637, in _validate_params
+    validate_parameter_constraints(
+  File "/Users/apple/opt/anaconda3/envs/mlflow-12571d9c1caa77253995e12e76279b45b79e0288/lib/python3.9/site-packages/sklearn/utils/_param_validation.py", line 95, in validate_parameter_constraints
+    raise InvalidParameterError(
+sklearn.utils._param_validation.InvalidParameterError: The 'criterion' parameter of RandomForestRegressor must be a str among {'squared_error', 'absolute_error', 'poisson', 'friedman_mse'}. Got 'mae' instead.

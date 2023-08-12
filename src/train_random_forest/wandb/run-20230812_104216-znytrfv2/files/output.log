@@ -1,0 +1,17 @@
+2023-08-12 10:42:28,552 Minimum price: 10, Maximum price: 350
+2023-08-12 10:42:28,655 Preparing sklearn pipeline
+2023-08-12 10:42:28,657 Fitting
+2023-08-12 10:46:29,662 Scoring
+2023-08-12 10:46:29,910 Score: 0.5652578116541835
+2023-08-12 10:46:29,910 MAE: 33.19792927631579
+2023-08-12 10:46:29,910 Exporting model
+/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/train_random_forest/run.py:103: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  X_val[object_cols] = X_val[object_cols].astype(str)
+/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/mlflow/models/signature.py:130: UserWarning: Hint: Inferred schema contains integer column(s). Integer columns in Python cannot represent missing values. If your input data contains missing values at inference time, it will be encoded as floats and will cause a schema enforcement error. The best way to avoid this problem is to infer the model schema based on a realistic data sample (training dataset) that includes missing values. Alternatively, you can declare integer columns as doubles (float64) whenever these columns may have missing values. See `Handling Integers With Missing Values <https://www.mlflow.org/docs/latest/models.html#handling-integers-with-missing-values>`_ for more details.
+  inputs = _infer_schema(model_input)
+/Users/apple/opt/anaconda3/envs/mlflow-4bb4b58028a24f6a3ae5ae6ea21e54b675e45053/lib/python3.9/site-packages/_distutils_hack/__init__.py:33: UserWarning: Setuptools is replacing distutils.
+  warnings.warn("Setuptools is replacing distutils.")
+[34m[1mwandb[39m[22m: Adding directory to artifact (./random_forest_dir)... Done. 0.2s

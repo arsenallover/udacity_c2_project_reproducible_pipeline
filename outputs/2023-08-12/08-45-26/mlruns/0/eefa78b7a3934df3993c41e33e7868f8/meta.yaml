@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/outputs/2023-08-12/08-45-26/mlruns/0/eefa78b7a3934df3993c41e33e7868f8/artifacts
+end_time: 1691810194179
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: eefa78b7a3934df3993c41e33e7868f8
+run_name: gentle-seal-979
+run_uuid: eefa78b7a3934df3993c41e33e7868f8
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691810131901
+status: 4
+tags: []
+user_id: apple

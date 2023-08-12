@@ -1,0 +1,15 @@
+artifact_uri: file:///Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/mlruns/0/4d128db70ce447e4b7eb2950d579474e/artifacts
+end_time: 1691810589135
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4d128db70ce447e4b7eb2950d579474e
+run_name: caring-kit-448
+run_uuid: 4d128db70ce447e4b7eb2950d579474e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1691810460254
+status: 4
+tags: []
+user_id: apple

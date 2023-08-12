@@ -1,0 +1,14 @@
+name: train_random_forest
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.9
+  - pandas
+  - pip
+  - mlflow=2.2.2
+  - scikit-learn=0.24.*
+  - matplotlib
+  - pillow=8.1.2
+  - pip:
+      - wandb==0.15.8

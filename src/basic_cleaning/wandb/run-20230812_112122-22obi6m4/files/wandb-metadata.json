@@ -1,0 +1,35 @@
+{
+    "os": "macOS-12.0.1-x86_64-i386-64bit",
+    "python": "3.11.4",
+    "heartbeatAt": "2023-08-12T05:51:23.929893",
+    "startedAt": "2023-08-12T05:51:22.344211",
+    "docker": null,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "sample.csv:latest",
+        "--output_artifact",
+        "clean_sample.csv",
+        "--output_type",
+        "clean_sample",
+        "--output_description",
+        "Data with outliers and null values removed",
+        "--min_price",
+        "10.0",
+        "--max_price",
+        "350.0"
+    ],
+    "state": "running",
+    "program": "/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/basic_cleaning/run.py",
+    "codePath": "src/basic_cleaning/run.py",
+    "git": {
+        "remote": "https://github.com/ChristopherCochet/nyc-rental-prices-predictions-ml-pipeline.git",
+        "commit": "47d6c36d081a255f7916793b029cb401ff47d23b"
+    },
+    "email": "rangarajp1308@gmail.com",
+    "root": "/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline",
+    "host": "apples-MacBook-Air.local",
+    "username": "apple",
+    "executable": "/Users/apple/opt/anaconda3/envs/mlflow-34bdb8fdc575b393013cfab22fe006b12d2e1f1b/bin/python"
+}

@@ -1,0 +1,341 @@
+2023-08-12 08:59:57,545 INFO    StreamThr :2521 [internal.py:wandb_internal():86] W&B internal server running at pid: 2521, started at: 2023-08-12 08:59:57.544298
+2023-08-12 08:59:57,558 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status
+2023-08-12 08:59:57,578 INFO    WriterThread:2521 [datastore.py:open_for_write():85] open: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/run-7bwrphdc.wandb
+2023-08-12 08:59:57,579 DEBUG   SenderThread:2521 [sender.py:send():379] send: header
+2023-08-12 08:59:57,685 DEBUG   SenderThread:2521 [sender.py:send():379] send: run
+2023-08-12 09:00:02,695 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:07,702 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:12,719 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:17,735 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:20,876 INFO    SenderThread:2521 [dir_watcher.py:__init__():211] watching files in: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files
+2023-08-12 09:00:20,876 INFO    SenderThread:2521 [sender.py:_start_run_threads():1121] run started: 7bwrphdc with start time 1691810997.556686
+2023-08-12 09:00:20,876 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: summary_record
+2023-08-12 09:00:20,877 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:20,877 INFO    SenderThread:2521 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-12 09:00:20,891 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: check_version
+2023-08-12 09:00:20,892 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: check_version
+2023-08-12 09:00:21,133 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: run_start
+2023-08-12 09:00:21,165 DEBUG   HandlerThread:2521 [system_info.py:__init__():31] System info init
+2023-08-12 09:00:21,167 DEBUG   HandlerThread:2521 [system_info.py:__init__():46] System info init done
+2023-08-12 09:00:21,167 INFO    HandlerThread:2521 [system_monitor.py:start():181] Starting system monitor
+2023-08-12 09:00:21,168 INFO    SystemMonitor:2521 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-12 09:00:21,168 INFO    HandlerThread:2521 [system_monitor.py:probe():201] Collecting system info
+2023-08-12 09:00:21,173 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started cpu monitoring
+2023-08-12 09:00:21,174 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started disk monitoring
+2023-08-12 09:00:21,174 DEBUG   HandlerThread:2521 [system_info.py:probe():195] Probing system
+2023-08-12 09:00:21,175 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started memory monitoring
+2023-08-12 09:00:21,177 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started network monitoring
+2023-08-12 09:00:21,192 DEBUG   HandlerThread:2521 [system_info.py:_probe_git():180] Probing git
+2023-08-12 09:00:21,260 DEBUG   HandlerThread:2521 [system_info.py:_probe_git():188] Probing git done
+2023-08-12 09:00:21,261 DEBUG   HandlerThread:2521 [system_info.py:probe():240] Probing system done
+2023-08-12 09:00:21,262 DEBUG   HandlerThread:2521 [system_monitor.py:probe():210] {'os': 'macOS-10.16-x86_64-i386-64bit', 'python': '3.9.17', 'heartbeatAt': '2023-08-12T03:30:21.175789', 'startedAt': '2023-08-12T03:29:57.513111', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'git': {'remote': 'https://github.com/ChristopherCochet/nyc-rental-prices-predictions-ml-pipeline.git', 'commit': '47d6c36d081a255f7916793b029cb401ff47d23b'}, 'email': 'rangarajp1308@gmail.com', 'root': '/Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline', 'host': 'apples-MacBook-Air.local', 'username': 'apple', 'executable': '/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/bin/python', 'cpu_count': 2, 'cpu_count_logical': 4, 'cpu_freq': {'current': 1600, 'min': 1600, 'max': 1600}, 'cpu_freq_per_core': [{'current': 1600, 'min': 1600, 'max': 1600}], 'disk': {'total': 112.80464935302734, 'used': 96.28100967407227}, 'memory': {'total': 4.0}}
+2023-08-12 09:00:21,263 INFO    HandlerThread:2521 [system_monitor.py:probe():211] Finished collecting system info
+2023-08-12 09:00:21,263 INFO    HandlerThread:2521 [system_monitor.py:probe():214] Publishing system info
+2023-08-12 09:00:21,263 DEBUG   HandlerThread:2521 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-08-12 09:00:21,264 DEBUG   HandlerThread:2521 [system_info.py:_save_pip():67] Saving pip packages done
+2023-08-12 09:00:21,265 DEBUG   HandlerThread:2521 [system_info.py:_save_conda():74] Saving list of conda packages installed into the current environment
+2023-08-12 09:00:21,892 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/conda-environment.yaml
+2023-08-12 09:00:21,894 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/wandb-summary.json
+2023-08-12 09:00:21,895 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/requirements.txt
+2023-08-12 09:00:31,864 DEBUG   HandlerThread:2521 [system_info.py:_save_conda():86] Saving conda packages done
+2023-08-12 09:00:31,865 DEBUG   HandlerThread:2521 [system_info.py:_save_code():89] Saving code
+2023-08-12 09:00:31,866 WARNING HandlerThread:2521 [system_info.py:_save_code():91] unable to save code -- program entry not found
+2023-08-12 09:00:31,866 DEBUG   HandlerThread:2521 [system_info.py:_save_patches():127] Saving git patches
+2023-08-12 09:00:31,924 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/conda-environment.yaml
+2023-08-12 09:00:32,272 DEBUG   HandlerThread:2521 [system_info.py:_save_patches():169] Saving git patches done
+2023-08-12 09:00:32,276 INFO    HandlerThread:2521 [system_monitor.py:probe():216] Finished publishing system info
+2023-08-12 09:00:32,300 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:32,301 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:32,301 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:32,301 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:32,304 DEBUG   SenderThread:2521 [sender.py:send():379] send: files
+2023-08-12 09:00:32,304 INFO    SenderThread:2521 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-08-12 09:00:32,305 INFO    SenderThread:2521 [sender.py:_save_file():1375] saving file diff.patch with policy now
+2023-08-12 09:00:32,427 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: stop_status
+2023-08-12 09:00:32,431 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: stop_status
+2023-08-12 09:00:32,926 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/wandb-metadata.json
+2023-08-12 09:00:32,926 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/diff.patch
+2023-08-12 09:00:33,389 INFO    wandb-upload_0:2521 [upload_job.py:push():131] Uploaded file /var/folders/sl/vgy0ldjj0_331w5nbqlrzf5m0000gn/T/tmphh_qvo9lwandb/pllxyvk2-wandb-metadata.json
+2023-08-12 09:00:33,411 INFO    wandb-upload_1:2521 [upload_job.py:push():131] Uploaded file /var/folders/sl/vgy0ldjj0_331w5nbqlrzf5m0000gn/T/tmphh_qvo9lwandb/zhwwe4o1-diff.patch
+2023-08-12 09:00:35,692 DEBUG   SenderThread:2521 [sender.py:send():379] send: telemetry
+2023-08-12 09:00:36,210 DEBUG   SenderThread:2521 [sender.py:send():379] send: use_artifact
+2023-08-12 09:00:36,210 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:37,386 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: pause
+2023-08-12 09:00:37,387 INFO    HandlerThread:2521 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-12 09:00:37,387 INFO    HandlerThread:2521 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-12 09:00:37,387 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-12 09:00:37,388 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-12 09:00:37,388 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-12 09:00:37,388 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-12 09:00:37,389 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined disk monitor
+2023-08-12 09:00:37,391 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined memory monitor
+2023-08-12 09:00:37,391 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined network monitor
+2023-08-12 09:00:37,392 DEBUG   SenderThread:2521 [sender.py:send():379] send: stats
+2023-08-12 09:00:37,414 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: resume
+2023-08-12 09:00:37,414 INFO    HandlerThread:2521 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-12 09:00:37,414 INFO    HandlerThread:2521 [system_monitor.py:start():181] Starting system monitor
+2023-08-12 09:00:37,415 INFO    SystemMonitor:2521 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-12 09:00:37,416 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started cpu monitoring
+2023-08-12 09:00:37,416 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started disk monitoring
+2023-08-12 09:00:37,417 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started memory monitoring
+2023-08-12 09:00:37,419 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started network monitoring
+2023-08-12 09:00:37,523 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: pause
+2023-08-12 09:00:37,523 INFO    HandlerThread:2521 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-12 09:00:37,523 INFO    HandlerThread:2521 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-12 09:00:37,524 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-12 09:00:37,525 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-12 09:00:37,525 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-12 09:00:37,525 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined disk monitor
+2023-08-12 09:00:37,525 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-12 09:00:37,525 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined memory monitor
+2023-08-12 09:00:37,526 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined network monitor
+2023-08-12 09:00:37,527 DEBUG   SenderThread:2521 [sender.py:send():379] send: stats
+2023-08-12 09:00:37,544 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: resume
+2023-08-12 09:00:37,545 INFO    HandlerThread:2521 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-12 09:00:37,545 INFO    HandlerThread:2521 [system_monitor.py:start():181] Starting system monitor
+2023-08-12 09:00:37,545 INFO    SystemMonitor:2521 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-12 09:00:37,546 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started cpu monitoring
+2023-08-12 09:00:37,547 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started disk monitoring
+2023-08-12 09:00:37,547 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started memory monitoring
+2023-08-12 09:00:37,549 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started network monitoring
+2023-08-12 09:00:37,591 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: pause
+2023-08-12 09:00:37,592 INFO    HandlerThread:2521 [handler.py:handle_request_pause():728] stopping system metrics thread or process
+2023-08-12 09:00:37,592 INFO    HandlerThread:2521 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-12 09:00:37,592 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-12 09:00:37,593 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-12 09:00:37,593 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-12 09:00:37,594 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined disk monitor
+2023-08-12 09:00:37,594 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-12 09:00:37,595 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined memory monitor
+2023-08-12 09:00:37,596 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined network monitor
+2023-08-12 09:00:37,596 DEBUG   SenderThread:2521 [sender.py:send():379] send: stats
+2023-08-12 09:00:37,939 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/output.log
+2023-08-12 09:00:39,953 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/output.log
+2023-08-12 09:00:41,609 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:43,234 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: resume
+2023-08-12 09:00:43,236 INFO    HandlerThread:2521 [handler.py:handle_request_resume():719] starting system metrics thread or process
+2023-08-12 09:00:43,236 INFO    HandlerThread:2521 [system_monitor.py:start():181] Starting system monitor
+2023-08-12 09:00:43,238 INFO    SystemMonitor:2521 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-08-12 09:00:43,243 DEBUG   SenderThread:2521 [sender.py:send():379] send: telemetry
+2023-08-12 09:00:43,247 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started cpu monitoring
+2023-08-12 09:00:43,251 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started disk monitoring
+2023-08-12 09:00:43,252 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started memory monitoring
+2023-08-12 09:00:43,255 INFO    SystemMonitor:2521 [interfaces.py:start():190] Started network monitoring
+2023-08-12 09:00:43,331 DEBUG   SenderThread:2521 [sender.py:send():379] send: config
+2023-08-12 09:00:43,349 DEBUG   SenderThread:2521 [sender.py:send():379] send: exit
+2023-08-12 09:00:43,349 INFO    SenderThread:2521 [sender.py:send_exit():584] handling exit code: 0
+2023-08-12 09:00:43,350 INFO    SenderThread:2521 [sender.py:send_exit():586] handling runtime: 16
+2023-08-12 09:00:43,350 INFO    SenderThread:2521 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-12 09:00:43,351 INFO    SenderThread:2521 [sender.py:send_exit():592] send defer
+2023-08-12 09:00:43,351 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,351 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 0
+2023-08-12 09:00:43,352 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,352 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-08-12 09:00:43,352 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 1
+2023-08-12 09:00:43,353 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,353 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 1
+2023-08-12 09:00:43,353 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,353 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-08-12 09:00:43,354 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 2
+2023-08-12 09:00:43,354 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,354 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 2
+2023-08-12 09:00:43,354 INFO    HandlerThread:2521 [system_monitor.py:finish():190] Stopping system monitor
+2023-08-12 09:00:43,355 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-08-12 09:00:43,355 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-08-12 09:00:43,355 DEBUG   SystemMonitor:2521 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-08-12 09:00:43,355 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined cpu monitor
+2023-08-12 09:00:43,356 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined disk monitor
+2023-08-12 09:00:43,356 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined memory monitor
+2023-08-12 09:00:43,356 INFO    HandlerThread:2521 [interfaces.py:finish():202] Joined network monitor
+2023-08-12 09:00:43,356 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,357 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-08-12 09:00:43,357 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 3
+2023-08-12 09:00:43,357 DEBUG   SenderThread:2521 [sender.py:send():379] send: stats
+2023-08-12 09:00:43,357 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,357 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 3
+2023-08-12 09:00:43,358 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,358 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-08-12 09:00:43,358 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 4
+2023-08-12 09:00:43,358 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,358 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 4
+2023-08-12 09:00:43,359 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,359 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-08-12 09:00:43,359 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 5
+2023-08-12 09:00:43,359 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,359 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 5
+2023-08-12 09:00:43,360 DEBUG   SenderThread:2521 [sender.py:send():379] send: summary
+2023-08-12 09:00:43,360 INFO    SenderThread:2521 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-08-12 09:00:43,361 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,361 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-08-12 09:00:43,361 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 6
+2023-08-12 09:00:43,361 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:43,361 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 6
+2023-08-12 09:00:43,362 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:43,362 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-08-12 09:00:43,367 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:43,964 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/wandb-summary.json
+2023-08-12 09:00:43,965 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/code/_session_history.ipynb
+2023-08-12 09:00:43,965 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_created():271] file/dir created: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/code
+2023-08-12 09:00:44,356 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-12 09:00:49,371 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:49,623 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 7
+2023-08-12 09:00:49,623 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: poll_exit
+2023-08-12 09:00:49,624 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:49,624 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 7
+2023-08-12 09:00:49,625 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:49,625 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:49,625 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-08-12 09:00:49,991 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/config.yaml
+2023-08-12 09:00:51,546 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 8
+2023-08-12 09:00:51,546 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:51,547 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 8
+2023-08-12 09:00:51,547 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:51,547 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-08-12 09:00:51,547 INFO    SenderThread:2521 [job_builder.py:build():281] Attempting to build job artifact
+2023-08-12 09:00:51,547 INFO    SenderThread:2521 [job_builder.py:build():297] run is notebook based run
+2023-08-12 09:00:51,548 INFO    SenderThread:2521 [job_builder.py:_get_source_type():400] is repo sourced job
+2023-08-12 09:00:51,548 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 9
+2023-08-12 09:00:51,548 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:51,549 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 9
+2023-08-12 09:00:51,549 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:51,549 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-08-12 09:00:51,549 INFO    SenderThread:2521 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-08-12 09:00:51,995 INFO    Thread-12 :2521 [dir_watcher.py:_on_file_modified():288] file/dir modified: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/output.log
+2023-08-12 09:00:51,996 INFO    SenderThread:2521 [dir_watcher.py:finish():388] scan: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files
+2023-08-12 09:00:51,996 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/diff.patch diff.patch
+2023-08-12 09:00:51,996 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/requirements.txt requirements.txt
+2023-08-12 09:00:51,997 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/output.log output.log
+2023-08-12 09:00:52,001 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/config.yaml config.yaml
+2023-08-12 09:00:52,007 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/wandb-summary.json wandb-summary.json
+2023-08-12 09:00:52,013 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/conda-environment.yaml conda-environment.yaml
+2023-08-12 09:00:52,016 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/wandb-metadata.json wandb-metadata.json
+2023-08-12 09:00:52,025 INFO    SenderThread:2521 [dir_watcher.py:finish():402] scan save: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/code/_session_history.ipynb code/_session_history.ipynb
+2023-08-12 09:00:52,026 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 10
+2023-08-12 09:00:52,027 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:00:52,028 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 10
+2023-08-12 09:00:52,031 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:00:52,031 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-08-12 09:00:52,031 INFO    SenderThread:2521 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-12 09:00:54,387 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:00:54,843 INFO    wandb-upload_3:2521 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/wandb-summary.json
+2023-08-12 09:00:55,041 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:00:55,864 INFO    wandb-upload_4:2521 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/conda-environment.yaml
+2023-08-12 09:00:56,992 INFO    wandb-upload_5:2521 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/code/_session_history.ipynb
+2023-08-12 09:00:58,088 INFO    wandb-upload_2:2521 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/config.yaml
+2023-08-12 09:00:59,407 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:00,046 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:01:04,427 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:05,058 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:01:09,449 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:10,077 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:01:11,254 INFO    wandb-upload_1:2521 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/output.log
+2023-08-12 09:01:13,127 INFO    wandb-upload_0:2521 [retry.py:__call__():172] Retry attempt failed:
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/connectionpool.py", line 466, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/connectionpool.py", line 461, in _make_request
+    httplib_response = conn.getresponse()
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/http/client.py", line 1377, in getresponse
+    response.begin()
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/http/client.py", line 320, in begin
+    version, status, reason = self._read_status()
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/http/client.py", line 281, in _read_status
+    line = str(self.fp.readline(_MAXLINE + 1), "iso-8859-1")
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/socket.py", line 704, in readinto
+    return self._sock.recv_into(b)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/ssl.py", line 1242, in recv_into
+    return self.read(nbytes, buffer)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/ssl.py", line 1100, in read
+    return self._sslobj.read(len, buffer)
+socket.timeout: The read operation timed out
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/requests/adapters.py", line 486, in send
+    resp = conn.urlopen(
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/connectionpool.py", line 798, in urlopen
+    retries = retries.increment(
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/util/retry.py", line 550, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/packages/six.py", line 770, in reraise
+    raise value
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/connectionpool.py", line 714, in urlopen
+    httplib_response = self._make_request(
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/connectionpool.py", line 468, in _make_request
+    self._raise_timeout(err=e, url=url, timeout_value=read_timeout)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/urllib3/connectionpool.py", line 357, in _raise_timeout
+    raise ReadTimeoutError(
+urllib3.exceptions.ReadTimeoutError: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/retry.py", line 131, in __call__
+    result = self._call_fn(*args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/internal/internal_api.py", line 323, in execute
+    return self.client.execute(*args, **kwargs)  # type: ignore
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 52, in execute
+    result = self._get_result(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/vendor/gql-0.2.0/wandb_gql/client.py", line 60, in _get_result
+    return self.transport.execute(document, *args, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/wandb/sdk/lib/gql_request.py", line 55, in execute
+    request = self.session.post(self.url, **post_args)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/requests/sessions.py", line 637, in post
+    return self.request("POST", url, data=data, json=json, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/requests/sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/requests/sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "/Users/apple/opt/anaconda3/envs/nyc_airbnb_dev/lib/python3.9/site-packages/requests/adapters.py", line 532, in send
+    raise ReadTimeout(e, request=request)
+requests.exceptions.ReadTimeout: HTTPSConnectionPool(host='api.wandb.ai', port=443): Read timed out. (read timeout=10)
+2023-08-12 09:01:14,469 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:15,094 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:01:19,491 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:20,112 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:01:21,773 INFO    wandb-upload_0:2521 [upload_job.py:push():131] Uploaded file /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/files/requirements.txt
+2023-08-12 09:01:21,985 INFO    Thread-11 :2521 [sender.py:transition_state():612] send defer: 11
+2023-08-12 09:01:21,985 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:01:21,986 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 11
+2023-08-12 09:01:21,988 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:01:21,989 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-08-12 09:01:21,989 INFO    SenderThread:2521 [file_pusher.py:join():164] waiting for file pusher
+2023-08-12 09:01:21,990 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 12
+2023-08-12 09:01:21,990 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:01:21,990 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 12
+2023-08-12 09:01:21,992 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:01:21,992 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-08-12 09:01:21,992 INFO    SenderThread:2521 [file_stream.py:finish():593] file stream finish called
+2023-08-12 09:01:24,508 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:29,527 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:34,547 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: keepalive
+2023-08-12 09:01:37,645 INFO    SenderThread:2521 [file_stream.py:finish():597] file stream finish is done
+2023-08-12 09:01:37,650 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 13
+2023-08-12 09:01:37,651 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:01:37,651 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 13
+2023-08-12 09:01:37,652 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: status_report
+2023-08-12 09:01:37,652 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:01:37,652 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-08-12 09:01:37,653 INFO    SenderThread:2521 [sender.py:transition_state():612] send defer: 14
+2023-08-12 09:01:37,653 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: defer
+2023-08-12 09:01:37,653 INFO    HandlerThread:2521 [handler.py:handle_request_defer():170] handle defer: 14
+2023-08-12 09:01:37,654 DEBUG   SenderThread:2521 [sender.py:send():379] send: final
+2023-08-12 09:01:37,654 DEBUG   SenderThread:2521 [sender.py:send():379] send: footer
+2023-08-12 09:01:37,654 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: defer
+2023-08-12 09:01:37,654 INFO    SenderThread:2521 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-08-12 09:01:37,657 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: poll_exit
+2023-08-12 09:01:37,661 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: server_info
+2023-08-12 09:01:37,662 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: get_summary
+2023-08-12 09:01:37,662 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: poll_exit
+2023-08-12 09:01:37,662 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: sampled_history
+2023-08-12 09:01:37,663 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: server_info
+2023-08-12 09:01:37,663 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: job_info
+2023-08-12 09:01:38,669 DEBUG   SenderThread:2521 [sender.py:send_request():406] send_request: job_info
+2023-08-12 09:01:38,671 DEBUG   HandlerThread:2521 [handler.py:handle_request():144] handle_request: shutdown
+2023-08-12 09:01:38,671 INFO    HandlerThread:2521 [handler.py:finish():857] shutting down handler
+2023-08-12 09:01:39,674 INFO    SenderThread:2521 [sender.py:finish():1552] shutting down sender
+2023-08-12 09:01:39,675 INFO    SenderThread:2521 [file_pusher.py:finish():159] shutting down file pusher
+2023-08-12 09:01:39,675 INFO    SenderThread:2521 [file_pusher.py:join():164] waiting for file pusher
+2023-08-12 09:01:39,675 INFO    WriterThread:2521 [datastore.py:close():294] close: /Users/apple/Desktop/ranga_udacity/c3_project/nyc-rental-prices-predictions-ml-pipeline/src/eda/wandb/run-20230812_085957-7bwrphdc/run-7bwrphdc.wandb

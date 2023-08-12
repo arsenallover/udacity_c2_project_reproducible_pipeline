@@ -1,0 +1,13 @@
+name: eda
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - jupyterlab
+  - seaborn
+  - pandas
+  - pip
+  - pandas-profiling
+  - pyarrow
+  - pip:
+      - wandb==0.13.2
